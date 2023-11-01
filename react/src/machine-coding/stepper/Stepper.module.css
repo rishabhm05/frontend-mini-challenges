@@ -1,0 +1,45 @@
+.stepper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+ 
+
+}
+.singlestep{
+    
+   flex-basis: 100%;
+    display: flex;
+    align-items: center;
+  
+   
+}
+.singlestep:last-child{
+    flex:1;
+}
+
+
+.stepline{
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+.steplabel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.2rem;
+}
+.stepnum{
+    background: blue;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  padding: 0.2rem;
+  color: white;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
